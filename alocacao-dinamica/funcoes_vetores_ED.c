@@ -17,7 +17,7 @@ void somar_vetor_escalar(int v[], int n, int escalar){
 
 void desaloca_vetor(int **v){
     free(*v);
-    v = NULL;
+    *v = NULL;
 }
 
 int main(){
